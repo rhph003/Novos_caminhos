@@ -10,20 +10,21 @@ echo 23 . PHP_EOL;
 $hello = "Olá mundo";
 
 echo $hello;
-echo "<p> $hello </p>";
-echo "<p> {$hello} </p>";
+echo "<p>$hello</p>";
+echo "<p>{$hello}</p>";
 
 PHPClassSession('print_r', __LINE__);
 
 $array = [
-    "company" => "IFTO",
-    "course" => "Programador WEB",
-    "class" => "Comandos de Saída",
+    "company" => "Ifto" ,
+    "course" => "Programador",
+    "class" => "comandos de saída",
 ];
 
-echo "<pre>";
-print_r($array);
+echo "<pre>" ; 
+print_r($array);               
 echo "</pre>";
+
 
 PHPClassSession('var_dump', __LINE__);
 
